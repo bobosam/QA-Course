@@ -31,8 +31,8 @@ public class ABVTest {
     public void TestLogin_ValidCredentials_ShouldLoginCorrectly() {
         driver.get("http://abv.bg");
 
-        String validUsername = "etlin";
-        String validPassword = "Tinche14596";
+        String validUsername = "";
+        String validPassword = "";
 
         WebElement usernameField = driver.findElement(By.id("username"));
         WebElement passwordField = driver.findElement(By.id("password"));
